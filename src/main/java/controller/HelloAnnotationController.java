@@ -6,7 +6,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloAnnotationController {
-    //我修改了啊
     @RequestMapping("/hello")
     public ModelAndView sayHello(String name){
         ModelAndView mav=new ModelAndView();
